@@ -1,0 +1,50 @@
+.flex{
+    display: flex;
+    /* padding-bottom: 5vh; */
+    
+}
+.flex img{
+    max-width: 20%;
+    
+    border-radius: 5px;
+}
+.right{
+
+    margin-right: 3vw;
+}
+.left{
+    margin-left: 3vw;
+}
+.flex p{
+    margin: 5vh;
+    font-size: 130%;
+}
+.content{
+    margin-bottom: 5vh;
+}
+.mgt{
+    margin-top: 3vh;
+}
+.content{
+    color: black;
+}
+body{
+    background: linear-gradient(90deg, #fcaf8c, #b9e6c3, #d88096)
+}
+@media  (max-width: 1200px) {
+    .flex{
+        flex-direction: column;
+        align-items: center;
+    }
+    .content{
+        margin-bottom: 0vh;
+    }
+    .flex img{
+        margin-top: 2vh;
+        
+        max-width: 90vw;
+    }
+    .right{
+        flex-direction: column-reverse;
+    }
+}

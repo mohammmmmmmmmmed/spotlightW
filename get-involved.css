@@ -1,0 +1,35 @@
+.content{
+    
+}
+.flex{
+    display: flex;
+}
+.flex img{
+    max-width:40%;
+    margin: 5vw;
+}
+.br {
+    color: black;
+    margin: 5vh auto;
+}
+.text{
+    font-size: 2vh;
+}
+.text a{
+    color: black;
+    margin: 1vh auto;
+}
+h3{
+    margin: 3vh auto;
+}
+@media (max-width:1200px){
+    .flex{
+        flex-direction: column;
+        margin: auto 5vw;
+        align-items: center;
+    }
+    .flex img{
+        max-width: 80%;
+        
+    }
+}

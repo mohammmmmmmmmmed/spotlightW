@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotlight</title>
+
+    <link rel="stylesheet" href="what-is-spotlight.css">
+    <link rel="stylesheet" href="common.css">
+
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div id="navlist">
+        <div>
+            <a href="index.html">
+                <img src="spotlight-logo.jpg" alt="" class="logo1">
+            </a>
+        </div>
+
+        <div id="navlist-right" class="pc">
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="what-is-spotlight.html">What is Spotlight?</a>
+            <a href="about-us.html">About Us</a>
+            <a href="get-involved.html">Get Involved</a>
+            <a href="contact-us.html">Contact Us</a>
+            <a href="donate-to-us.html">Donate to Us</a>
+            <a href="test.html">Test</a>
+        </div>
+        <nav class="mob">
+            <div class="navbar">
+                <div class="nav-container">
+                    <input type="checkbox" class="checkbox" id="checkbox">
+                    <label for="checkbox" class="hamburger-lines" onclick="toggleMenu()" style="top: 3vh;">
+                        <span class="line line1" style="background-color: darkgreen;"></span>
+                        <span class="line line2" style="background-color: darkgreen;"></span>
+                        <span class="line line3" style="background-color: darkgreen;"></span>
+                    </label>
+                    <ul class="menu-items">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="what-is-spotlight.html">What is Spotlight?</a></li>
+                        <li><a href="about-us.html">About Us</a></li>
+                        <li><a href="get-involved.html">Get Involved</a></li>
+                        <li><a href="contact-us.html">Contact Us</a></li>
+                        <li><a href="donate-to-us.html">Donate to Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+    <div class="content" style="margin-top: 15vh;">
+        <img src="woman-sitting.jpg" alt="" style=" max-width: 70%; margin-left: 15%; margin-bottom: 3vh;">
+        <p>
+            Spotlight is a non-profit, online victim support service that provides 24/7 crisis help, emotional support
+            chat, as well as care navigation to victims of abuse all over India.
+
+            While we acknowledge the existence of various established crisis hotlines and listening services, Spotlight
+            stands out as it endeavours to become an all-from-one-source support for victims of abuse all over India,
+            regardless of their gender or background by providing care navigation, emotional support and crisis help.
+            The most significant aspect of Spotlight is that it is fully online in order to facilitate accessibility.
+            Service users can avail help primarily through social media, although other options such as email and direct
+            call are available.
+        </p>
+        <p>
+            Although our services are free-of-cost, when a service user avails legal or clinical help, the service user
+            may sometimes be required to pay service fee to either the lawyers or mental health professionals. It is
+            imperative to note that we attempt to make support to victims as affordable and accessible as possible and
+            this aspect is always given priority.
+        </p>
+    </div>
+    <div class="textblock5" style="background-color: black; padding: 5vh 0vh; text-align: center;">
+        <h4  style="font-size: 2vh;">CONNECT WITH US</h4>
+        <a href="https://www.instagram.com/the.spotlightindia/?igshid=YmMyMTA2M2Y%3D"><img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACsUlEQVR4nO2Zz04UQRCH54Be3ADe8WCE1cSLUfBgxIPgGfBVFH0BiHIUPfgnoO9ghMCyREx8BEXu60nFCAa9LB+pWBMnm0zPTPdAzSb7SybZw1R1f9vV1TVdUdRTT/YCLgIPgQ1gG/hNeRJf4rMBPJCxjgNgFGhy8voI3CgD4BTwDDjETofAU6DPF+IssEl11JQ5+ayERShl6QNwugiIhFNVtVhkY1vuiSzJ3K7lAaliSHWqkeecsNQ7YEiflYx3R1wgcthZaigxl3MZ7866QORU7RaQdRfITgmT+QEsAVMaqmf0kd/TwDKwm2K7ogDyrGaM88UFshcAcADMAf3OjfhvnAFgXm18tecawFetZEoE7gCv5F/TYjAuCF8Ckx2pXmy9FJUM0opjG6gDWzls3sdZRzNUyxrkIF4J4JYj9tP20rjajgF/LEHmEitRBCIJM6w+HluByCQG1C5POKVpU30MFv0zygJZSmzsUE2or9cWIFNqI9kpVC/U14wFSF1tJMWGatun1otKAqmpzT7h2ldftW4H+aW++rs9tD5bhta02kjZEarn6uuuBciy2kwSrtvq6431gSi1k6+aiQPxpwWIaF7tzgPfAkuUhaLGZYJIoTeqtuM6sbz6DtxU2+vWRWNnGT+c83ZSbmouqI18DX7FQ1HJIDHMWMLPhJQdklb1nJHnk2SneGMnVsILIgsk5FNXQuORbNrUAf6PM6h74u9xferuEK5drWKlALykZUdNf89oii2UnXwuH6yvg4pozQUinaJu0T0XyAjdo3rWRpT+YNW17oRQkCtAm+qqnautoDDSs6uqnuSCUJC+iobYVqHWW6IZWqWmz0aew9a1MovGrbi2hJN3e7oD6DLw1gCiAVwNBkg5Z2Yl/entehkXD7HElxSZa8B9Z2utp56iE9MRhEQQu0zJ/tkAAAAASUVORK5CYII="
+                alt=""></a>
+
+        <a href="https://www.linkedin.com/company/spotlight-org/"><img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAABS0lEQVR4nO2ZO0oEQRRFnyhmOoKmgoHuwD0oOI2GomBm6BZMZMCFuAYzx1EXYqb4YUB7IpMjJR01U3a1HXhreAcqu13F4dXr6o+Z4zh/AtgHRsCE/2cC3AJFW4lLdBm0qYQ6/RSRsJ3UGaaIlOjzmSKSBeYiM1aRZ+AQWK3GMfBKhiI7Krdr6yiyPCXfI0ORYkq+T4Yib8AJsFaN0CMvZCgig7nILFXEEq5JyDxUZ9E6sAgsAdvAOfCeg0g4OHcb1l4BrtVFNhsXt5/cAnAvK9IGYAP4khcB5hMyV7IiwBnwVEUfgdNfskeSIsBBm/dvYEtV5C4y7SiS76mKjCPTjiP5OVWRTvPWcZGAV8R8a0XxHgl4j5j3SBTvETWsyyNKbiIl+nykiIS/p+rcpIgU6LPXKFLJDNDlIkmi9pV9KNIzZdhOyZVwHMfqfANKiIQn/4RZwwAAAABJRU5ErkJggg=="
+                alt=""></a>
+        <div class="pdfs" style="margin-top: 3vh;">
+            <a
+                href="https://img1.wsimg.com/blobby/go/ebc6d045-2119-4abf-8f3a-8b0502acf052/downloads/Privacy%20Notice.pdf?ver=1671069431963" style="font-size: 2vh; margin-right: 1vh;">Privacy
+                Policy</a>
+            <a
+                href="https://img1.wsimg.com/blobby/go/ebc6d045-2119-4abf-8f3a-8b0502acf052/downloads/Volunteer%20Policy%20(Updtd%20w%20MT).pdf?ver=1671069433496" style="font-size: 2vh;">Volunteering
+                With Us</a>
+        </div>
+        <div class="textblock4" style="background-color: black; text-align: center;">
+            <!-- <h4>CONNECT WITH US</h4> -->
+            <a href="https://www.instagram.com/the.spotlightindia/?igshid=YmMyMTA2M2Y%3D"><img
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACsUlEQVR4nO2Zz04UQRCH54Be3ADe8WCE1cSLUfBgxIPgGfBVFH0BiHIUPfgnoO9ghMCyREx8BEXu60nFCAa9LB+pWBMnm0zPTPdAzSb7SybZw1R1f9vV1TVdUdRTT/YCLgIPgQ1gG/hNeRJf4rMBPJCxjgNgFGhy8voI3CgD4BTwDDjETofAU6DPF+IssEl11JQ5+ayERShl6QNwugiIhFNVtVhkY1vuiSzJ3K7lAaliSHWqkeecsNQ7YEiflYx3R1wgcthZaigxl3MZ7866QORU7RaQdRfITgmT+QEsAVMaqmf0kd/TwDKwm2K7ogDyrGaM88UFshcAcADMAf3OjfhvnAFgXm18tecawFetZEoE7gCv5F/TYjAuCF8Ckx2pXmy9FJUM0opjG6gDWzls3sdZRzNUyxrkIF4J4JYj9tP20rjajgF/LEHmEitRBCIJM6w+HluByCQG1C5POKVpU30MFv0zygJZSmzsUE2or9cWIFNqI9kpVC/U14wFSF1tJMWGatun1otKAqmpzT7h2ldftW4H+aW++rs9tD5bhta02kjZEarn6uuuBciy2kwSrtvq6431gSi1k6+aiQPxpwWIaF7tzgPfAkuUhaLGZYJIoTeqtuM6sbz6DtxU2+vWRWNnGT+c83ZSbmouqI18DX7FQ1HJIDHMWMLPhJQdklb1nJHnk2SneGMnVsILIgsk5FNXQuORbNrUAf6PM6h74u9xferuEK5drWKlALykZUdNf89oii2UnXwuH6yvg4pozQUinaJu0T0XyAjdo3rWRpT+YNW17oRQkCtAm+qqnautoDDSs6uqnuSCUJC+iobYVqHWW6IZWqWmz0aew9a1MovGrbi2hJN3e7oD6DLw1gCiAVwNBkg5Z2Yl/entehkXD7HElxSZa8B9Z2utp56iE9MRhEQQu0zJ/tkAAAAASUVORK5CYII="
+                    alt=""></a>
+
+            <a href="https://www.linkedin.com/company/spotlight-org/"><img
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAABS0lEQVR4nO2ZO0oEQRRFnyhmOoKmgoHuwD0oOI2GomBm6BZMZMCFuAYzx1EXYqb4YUB7IpMjJR01U3a1HXhreAcqu13F4dXr6o+Z4zh/AtgHRsCE/2cC3AJFW4lLdBm0qYQ6/RSRsJ3UGaaIlOjzmSKSBeYiM1aRZ+AQWK3GMfBKhiI7Krdr6yiyPCXfI0ORYkq+T4Yib8AJsFaN0CMvZCgig7nILFXEEq5JyDxUZ9E6sAgsAdvAOfCeg0g4OHcb1l4BrtVFNhsXt5/cAnAvK9IGYAP4khcB5hMyV7IiwBnwVEUfgdNfskeSIsBBm/dvYEtV5C4y7SiS76mKjCPTjiP5OVWRTvPWcZGAV8R8a0XxHgl4j5j3SBTvETWsyyNKbiIl+nykiIS/p+rcpIgU6LPXKFLJDNDlIkmi9pV9KNIzZdhOyZVwHMfqfANKiIQn/4RZwwAAAABJRU5ErkJggg=="
+                    alt=""></a>
+            <div class="pdfs" style="margin-top: 3vh;">
+                <a
+                    href="https://img1.wsimg.com/blobby/go/ebc6d045-2119-4abf-8f3a-8b0502acf052/downloads/Privacy%20Notice.pdf?ver=1671069431963">Privacy
+                    Policy</a>
+                <a
+                    href="https://img1.wsimg.com/blobby/go/ebc6d045-2119-4abf-8f3a-8b0502acf052/downloads/Volunteer%20Policy%20(Updtd%20w%20MT).pdf?ver=1671069433496">Volunteering
+                    With Us</a>
+            </div>
+        </div>
+</body>
+
+</html>
